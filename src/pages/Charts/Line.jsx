@@ -1,9 +1,11 @@
-import React from 'react'
+import React from "react";
 
-const Line = () => {
-  return (
-    <div>Line</div>
-  )
-}
+import { LineChart } from "../../components";
 
-export default Line
+const Line = () => (
+  <div className="w-full">
+    <LineChart />
+  </div>
+);
+
+export default Line;
